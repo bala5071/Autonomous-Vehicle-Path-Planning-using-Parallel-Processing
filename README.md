@@ -30,24 +30,6 @@ This project focuses on **real-time path planning** for autonomous vehicles usin
 
 **Key Insight**: Parallelization led to **90% faster training** and more accurate steering predictions.
 
-## Project Structure
-```
-.
-├── data/                          # Contains CARLA dataset (images and labels)
-├── models/
-│   ├── cnn_model.py               # CNN model implementation
-│   ├── resnet_model.py            # ResNet-18 model implementation
-├── utils/
-│   ├── data_loader.py             # Data loading and augmentation utilities
-│   ├── train_utils.py             # Training and validation functions
-├── results/
-│   ├── serial_results.txt         # Results from serial execution
-│   ├── parallel_results.txt       # Results from parallel execution
-├── main.py                        # Main script to train and evaluate models
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
-```
-
 ## Dependencies
 To run the project, install the required dependencies using the following command:
 ```bash
