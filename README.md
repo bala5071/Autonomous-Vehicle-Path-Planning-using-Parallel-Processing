@@ -30,11 +30,6 @@ This project focuses on **real-time path planning** for autonomous vehicles usin
 
 **Key Insight**: Parallelization led to **90% faster training** and more accurate steering predictions.
 
-## Dependencies
-To run the project, install the required dependencies using the following command:
-```bash
-pip install -r requirements.txt
-```
 
 ### Key Libraries:
 - Python 3.8+
@@ -47,10 +42,12 @@ pip install -r requirements.txt
 
 ## Results Visualization
 The training loss, validation loss, and R² score are logged during training.
-CNN Model:
-![image](https://github.com/user-attachments/assets/459bff10-3ef2-4abc-8e65-c36385d128ea)
-ResNet Model:
-![image](https://github.com/user-attachments/assets/56e17b85-8f39-42dd-bea1-29a346a6879d)
+- CNN Model:
+![image](https://github.com/user-attachments/assets/c84d708d-06aa-4620-9b8d-c0ede30994cd)
+
+- ResNet Model:
+![image](https://github.com/user-attachments/assets/1f3eab43-75a3-4a71-9533-5d0149927d3f)
+
 
 
 
