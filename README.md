@@ -46,10 +46,13 @@ pip install -r requirements.txt
 
 
 ## Results Visualization
-The training loss, validation loss, and R² score are logged during training. Use the provided script to visualize the metrics:
-```bash
-python plot_results.py
-```
+The training loss, validation loss, and R² score are logged during training.
+CNN Model:
+![image](https://github.com/user-attachments/assets/459bff10-3ef2-4abc-8e65-c36385d128ea)
+ResNet Model:
+![image](https://github.com/user-attachments/assets/56e17b85-8f39-42dd-bea1-29a346a6879d)
+
+
 
 ## Future Work
 - Explore more advanced architectures (e.g., Transformer-based models).
