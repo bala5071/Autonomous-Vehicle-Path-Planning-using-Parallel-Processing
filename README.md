@@ -44,25 +44,6 @@ pip install -r requirements.txt
 - OpenCV
 - CARLA Simulator (optional, for dataset generation)
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shivakumardhandapani/autonomous-path-planning.git
-   cd autonomous-path-planning
-   ```
-2. Prepare the dataset:
-   - Place the CARLA dataset in the `data/` directory.
-3. Train the CNN model:
-   ```bash
-   python main.py --model cnn --parallel True
-   ```
-4. Train the ResNet model:
-   ```bash
-   python main.py --model resnet --parallel True
-   ```
-5. View results and logs:
-   - Training metrics will be saved in the `results/` folder.
-   - Model weights will be saved in the `models/` directory.
 
 ## Results Visualization
 The training loss, validation loss, and R² score are logged during training. Use the provided script to visualize the metrics:
